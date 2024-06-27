@@ -3,7 +3,7 @@ package org.example.studygroup;
 import java.util.Date;
 
 // model
-public abstract class User { //зависимости внутри системы строятся на основе абстракций (Принцип инверсии зависимостей (DIP)) Модули верхнего уровня не зависят от модулей нижнего уровня.
+public abstract class User { // В зависимости внутри системы строятся на основе абстракций (Принцип инверсии зависимостей (DIP)) Модули верхнего уровня не зависят от модулей нижнего уровня.
     Date dateBirth;
     String fio;
     int ID;

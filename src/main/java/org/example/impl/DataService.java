@@ -8,7 +8,7 @@ import org.example.studygroup.User;
 import java.util.List;
 
 public interface DataService { // На каждый объект возлагается одна обязанность, полностью инкапсулированная в класс. (Принцип единственной ответственности (SRP))
-    User create(Student student);//^Такой классы всегда будет просто изменять, если это понадобится, потому что понятно, за что класс отвечает, а за что — нет.
+    User create(Student student);// Такой класс всегда просто изменять, так как понятно, за что класс отвечает.
 
     User create(Students students);
 
